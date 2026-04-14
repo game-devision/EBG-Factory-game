@@ -1,0 +1,8 @@
+[gd_scene format=3 uid="uid://ckbjkatf5bcga"]
+
+[ext_resource type="Texture2D" uid="uid://cat5gbn8wi6jj" path="res://gear tmp.png" id="1_kqont"]
+
+[node name="Iron gear" type="TextureRect" unique_id=413866041]
+offset_right = 40.0
+offset_bottom = 40.0
+texture = ExtResource("1_kqont")

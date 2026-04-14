@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="ItemData" format=3 uid="uid://d0q6sbwicpmjk"]
+
+[ext_resource type="Texture2D" uid="uid://cat5gbn8wi6jj" path="res://gear tmp.png" id="1_2phip"]
+[ext_resource type="Script" uid="uid://v4vgu12fbmf" path="res://scripts/resources/item_data.gd" id="1_y7vhu"]
+
+[resource]
+script = ExtResource("1_y7vhu")
+item_name = "Iron gear"
+icon = ExtResource("1_2phip")
+metadata/_custom_type_script = "uid://v4vgu12fbmf"

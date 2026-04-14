@@ -6,6 +6,10 @@
 .import/
 export.cfg
 export_credentials.cfg
+<<<<<<< HEAD
+=======
+*.tmp
+>>>>>>> 775ff63 (initial commit)
 
 # Imported translations (automatically generated from CSV files)
 *.translation

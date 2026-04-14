@@ -1,0 +1,19 @@
+[gd_scene format=3 uid="uid://dyotrvocbtqmd"]
+
+[ext_resource type="PackedScene" uid="uid://ymsetytv38nr" path="res://scenes/player.tscn" id="1_o5qli"]
+[ext_resource type="PackedScene" uid="uid://ba45j74ohxt1x" path="res://scenes/build_system.tscn" id="2_0wfyh"]
+[ext_resource type="PackedScene" uid="uid://xf5ogkncu1lq" path="res://scenes/build_gui.tscn" id="3_sugp2"]
+
+[node name="Node2D" type="Node2D" unique_id=657335980]
+
+[node name="Player" parent="." unique_id=232108299 instance=ExtResource("1_o5qli")]
+position = Vector2(579, 361)
+scale = Vector2(0.2, 0.2)
+
+[node name="Camera2D" type="Camera2D" parent="Player" unique_id=869816549]
+position = Vector2(-5.000244, -0.00024414063)
+scale = Vector2(5.5247326, 5.672523)
+
+[node name="Build system" parent="." unique_id=1406108986 instance=ExtResource("2_0wfyh")]
+
+[node name="Build GUI" parent="." unique_id=1064644902 instance=ExtResource("3_sugp2")]

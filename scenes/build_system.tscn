@@ -1,0 +1,24 @@
+[gd_scene format=3 uid="uid://ba45j74ohxt1x"]
+
+[ext_resource type="Script" uid="uid://dxwy3kecwui5b" path="res://scripts/build_system.gd" id="1_1nlj3"]
+[ext_resource type="Texture2D" uid="uid://3im017qtpph0" path="res://sprite sheet.png" id="2_s37tc"]
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_jtlop"]
+texture = ExtResource("2_s37tc")
+0:0/size_in_atlas = Vector2i(2, 2)
+0:0/0 = 0
+0:2/0 = 0
+1:2/0 = 0
+
+[sub_resource type="TileSet" id="TileSet_ygbnn"]
+sources/0 = SubResource("TileSetAtlasSource_jtlop")
+
+[node name="Build system" type="Node2D" unique_id=1406108986 groups=["BuildSystem"]]
+script = ExtResource("1_1nlj3")
+
+[node name="Ground" type="TileMapLayer" parent="." unique_id=1535042135]
+tile_set = SubResource("TileSet_ygbnn")
+
+[node name="Preview" type="TileMapLayer" parent="." unique_id=779881862]
+modulate = Color(1, 1, 1, 0.37254903)
+tile_set = SubResource("TileSet_ygbnn")
